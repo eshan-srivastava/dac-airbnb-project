@@ -24,15 +24,21 @@ Price refers to the price for the Airbnb listing.
 Given the input of some parameters (like room type, nights to stay) we can predict the Target Variable and thus recommend listings based on price that the model predicts. 
 ## Model(s) Used
 
+<<<<<<< HEAD
 We have plans to mostly used regression models: 
 # Linear Regression
 
 # Logistic Regression
 
+=======
+We have plans to use regression models as of now: 
+# Linear Regression 
+Linear Regression is the supervised Machine Learning model in which the model finds the best fit linear line between the independent and dependent variable i.e it finds the linear relationship between the dependent and independent variable. This regression technique finds out a linear relationship between x (input) and y(output). Hence, the name is Linear Regression. The typical equation of a line is y = mx + a, where m is the slope, x is independent variable and y is dependent variable that we are interested in predicting
+>>>>>>> a565035fb65d5ae3b4a6dc59c99051e581a4a989
 # Lasso Regression
-
+Lasso regression is a regularization technique. It is used over regression methods for a more accurate prediction. This model uses shrinkage. Shrinkage is where data values are shrunk towards a central point as the mean. The lasso procedure encourages simple, sparse models (i.e. models with fewer parameters). This particular type of regression is well-suited for models showing high levels of multicollinearity or when you want to automate certain parts of model selection, like variable selection/parameter elimination.
 # K Cross Validation for validation
-
+Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample. Cross-validation is primarily used in applied machine learning to estimate the skill of a machine learning model on unseen data. That is, to use a limited sample in order to estimate how the model is expected to perform in general when used to make predictions on data not used during the training of the model.
 <br>
 
 
