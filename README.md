@@ -24,13 +24,6 @@ Price refers to the price for the Airbnb listing.
 Given the input of some parameters (like room type, nights to stay) we can predict the Target Variable and thus recommend listings based on price that the model predicts. 
 ## Model(s) Used
 
-<<<<<<< HEAD
-We have plans to mostly used regression models: 
-# Linear Regression
-
-# Logistic Regression
-
-=======
 We have plans to use regression models as of now: 
 # Linear Regression 
 Linear Regression is the supervised Machine Learning model in which the model finds the best fit linear line between the independent and dependent variable i.e it finds the linear relationship between the dependent and independent variable. This regression technique finds out a linear relationship between x (input) and y(output). Hence, the name is Linear Regression. The typical equation of a line is y = mx + a, where m is the slope, x is independent variable and y is dependent variable that we are interested in predicting
